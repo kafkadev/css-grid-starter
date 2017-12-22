@@ -4,7 +4,9 @@
     margin-left: auto;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-column-gap: 32px;
+    grid-column-gap: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .w-full {
@@ -50,6 +52,12 @@
 }
 
 @media screen and (min-width: 48em) {
+    .row {
+        grid-column-gap: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
     .md\:w-full {
         grid-column: span 12;
     }
