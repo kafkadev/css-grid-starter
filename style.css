@@ -29,6 +29,10 @@
     grid-column: span 2;
 }
 
+.w-1\/12 {
+    grid-column: span 1;
+}
+
 @media screen and (min-width: 36em) {
     .sm\:w-full {
         grid-column: span 12;
@@ -48,6 +52,10 @@
 
     .sm\:w-1\/6 {
         grid-column: span 2;
+    }
+
+    .sm\:w-1\/12 {
+        grid-column: span 1;
     }
 }
 
@@ -77,6 +85,9 @@
     .md\:w-1\/6 {
         grid-column: span 2;
     }
+    .md\:w-1\/12 {
+        grid-column: span 1;
+    }
 }
 
 @media screen and (min-width: 62em) {
@@ -99,6 +110,10 @@
     .lg\:w-1\/6 {
         grid-column: span 2;
     }
+
+    .lg\:w-1\/12 {
+        grid-column: span 1;
+    }
 }
 
 @media screen and (min-width: 75em) {
@@ -120,6 +135,10 @@
 
     .xl\:w-1\/6 {
         grid-column: span 2;
+    }
+
+    .xl\:w-1\/12 {
+        grid-column: span 1;
     }
 }
 
